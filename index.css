@@ -1,0 +1,577 @@
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color:none;
+}
+.content-top {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  max-height: 600px;
+  background-image: url(files/bg@3x.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #222429;
+}
+
+.content-top-title {
+  padding-top: 20px;
+  text-align: center;
+}
+.content-top-title a {
+  text-decoration: none;
+}
+.content-top-title__tit {
+  width: auto;
+  height: auto;
+  color: #4d4959;
+  font-family: Lato;
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0.87px;
+  margin-left: 25px;
+}
+.content-top-title_tocka {
+  width: auto;
+  height: auto;
+  color: #4d4959;
+  font-family: Lato;
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0.87px;
+  margin-left: 20px;
+}
+.content-top-title :hover {
+  color: #7e7a88;
+}
+.content-top-title img {
+  max-width: 93px;
+  max-height: 84px;
+  width: 100%;
+  height: 100%;
+  margin-left: 50px;
+  margin-right: 30px;
+}
+
+.content-generation {
+  height: 350px;
+  background-color: #f7f7f7;
+}
+.content-generation-logo {
+  max-width: 50px;
+  max-height: 44px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 82.5px;
+}
+.content-generation-title {
+  color: #353738;
+  font-family: Lato;
+  font-style: normal;
+  text-align: center;
+  line-height: 11.33px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-top: 73px;
+}
+.content-generation-description {
+  color: #848789;
+  font-family: Lato;
+  font-style: normal;
+  text-align: center;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  letter-spacing: normal;
+  margin: 0 auto;
+  max-width: 900px;
+  padding-top: 20px;
+}
+.content-work-vintage-text{
+    padding-top: 30px;
+}
+.content-work-vintage-text_logo{
+  max-width: 41px;
+  max-height: 30px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.content-work-vintage-text_title{
+    color: #353738;
+  font-family: Lato;
+  font-style: normal;
+  text-align: center;
+  font-size: 15px;
+  line-height: 11.33px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.content-work-vintage-text_description{
+    color: #848789;
+    font-family: Lato;
+    font-style: normal;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: normal;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.content-work {
+  height: 450px;
+  background-color: #fff;
+}
+.content-work-left{
+        overflow:hidden;
+        max-width: 2000px;
+        width: 900px;
+        height: 100%;
+        background-color: #222429;
+        float: left;   
+}
+.content-work-right{
+        overflow:hidden;
+        max-width: 600px;
+        width: 449px;
+        height: 100%;
+        background-color: #ffffff;
+        float: left;
+}
+.content-work-img {
+  overflow:hidden;
+  display: inline-block;
+  background-image: url(files/Layer_10@3x.png);
+  max-width: 900px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #222429;
+}
+.content-work-img img {
+  max-width: 100px;
+  max-height: 100px;
+  width: 100%;
+  height: 100%;
+  margin-left: 380px;
+  margin-top: 190px;
+}
+.content-work-vintage-text{
+    max-height: 270px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.content-work-vintage-img{
+  max-height: 180px;
+  width: 100%;
+  height: 100%;
+  background-image: url("Files/Work_second.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #222429;
+  color:black;
+}
+.content-work-second {
+  height: 450px;
+  background-color: #fff;
+}
+.content-work-second-left{
+    overflow:hidden;
+        max-width: 600px;
+        width: 449px;
+        height: 100%;
+        background-color: white;
+        float:right;
+}
+.content-work-second-right{
+        overflow:hidden;
+        max-width: 2000px;
+        width: 900px;
+        height: 100%;
+        background-color: #222429;
+        float: right; 
+}
+.content-work-second-right-img {
+    overflow:hidden;
+    display: inline-block;
+    background-image: url(files/Layer_12@4x.png);
+    max-width: 900px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #222429;
+}
+.content-work-second-right-img img {
+  max-width: 120px;
+  max-height: 100px;
+  width: 100%;
+  height: 100%;
+  margin-left: 400px;
+  margin-top: 190px;
+}
+.content-work-second-vintage-img{
+    max-height: 180px;
+  width: 100%;
+  height: 100%;
+  background-image: url("Files/Vintage_Second_img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #222429;
+}
+.content-work-third {
+  height: 450px;
+  background-color: #fff;
+}
+.content-work-third-left{
+        overflow:hidden;
+        max-width: 600px;
+        width: 449px;
+        height: 100%;      
+        float: left;
+}
+
+.content-work-third-left-img {
+  background-image: url(files/Third_First@4x.png);
+  max-width: 450px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #222429;
+}
+.content-work-third-middle-img {
+    max-width: 449px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+  }
+  .content-work-third-right-img {
+    
+  background-image: url(files/Vintage_Third_img.png);
+  max-width: 470px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #222429;
+}
+.content-work-third-left-img img {
+  max-width: 130px;
+  max-height: 40px;
+  width: 100%;
+  height: 100%;
+  margin-left: 160px;
+  margin-top: 240px;
+}
+.content-work-third-vintage-img{
+    margin-top: 50px;
+    max-height: 180px;
+    max-width: 500px;
+    width: 100%;
+    height: 100%;
+    background-image: url("Files/Third_Vintage_Image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #222429;
+}
+.content-twitter-title {
+  text-align: center;
+  padding-top: 73px;
+}
+.content-twitter-title-first {
+  width: 297px;
+  height: 16px;
+  color: #353738;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+}
+.content-twitter-title-second {
+  color: #848789;
+  font-family: "Lato Light";
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 1.8px;
+  line-height: normal;
+}
+.content-photos-left{
+  position: relative;
+  float: left;
+  overflow: hidden;
+  height: 450px;
+  width: 449.5px;
+  background-color: #222429;
+}
+.content-photos{
+  display: inline-block;
+  overflow: hidden;
+  height: 450px;
+  background-color: white;
+  width:100%;
+}
+.content-photos-top{
+  height: 225px;
+  width: 450px;
+  background-color: black;
+}
+
+.content-photos-top-left{
+  position: relative;
+  float: left;
+  overflow: hidden;
+  height: 225px;
+  width: 225px;
+  background-image: url(files/content-photos-top-first.png);
+  background-repeat: no-repeat;
+}
+.content-photos-top-right{
+  position: relative;
+  float: left;
+  overflow: hidden;
+  height: 225px;
+  width: 225px;
+  background-color: #222429;
+  background-image: url(files/content-photos-top-second.png);
+  background-repeat: no-repeat;
+}
+.content-photos-bottom{
+  background-color: #222429;
+}
+.content-photos-bottom-image{
+  background-image: url(files/content-photos-left-bottom.png);
+  max-width: 470px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #222429;
+}
+.content-photos-bottom-image-shader{
+    background-color: #64c29e;
+    opacity: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 80px;
+}
+.content-photos-shop a{
+  color:white;
+}
+.content-photos-shop{
+  margin-top:10px;
+}
+.content-photos-middle-left{
+  position: relative;
+  float: left;
+  overflow: hidden;
+  height: 100%;
+  width: 224.50px;
+  background-image: url(FIles/Content-photos-middle-right.png);
+  background-repeat: no-repeat;
+}
+.content-photos-middle-right{
+  background-image: url(FIles/Content-photos-middle-left.png);
+}
+.content-photos-right-top{
+  background-image: url(files/content-photos-right-top.png);
+}
+.content-photos-bottom-left{
+  background-image: url(files/content-photos-right-bottom-left.png);
+}
+.content-photos-bottom-right{
+  background-image: url(files/content-photos-bottom-right.png);
+}
+.content-discover-the-shop {
+  height: 150px;
+  background-color: #282f35;
+  text-align: center;
+  padding-top: 50px;
+}
+.content-discover-the-shop__button {
+  display: inline-block;
+width: 300px;
+height: 50px;
+line-height: 50px;
+padding: 0px 50px;
+border: 1px solid #929598;
+background-color: #282f35;
+/* Style for "DISCOVER T" */
+color: #ffffff;
+font-family: Lato;
+font-size: 14px;
+font-weight: 700;
+font-style: normal;
+text-transform: uppercase;
+letter-spacing: 2.8px;
+
+}
+.content-discover-the-shop__button:hover {
+text-decoration: none;
+background-color: #f7f7f7 ;
+color: #71c7a6;
+-webkit-box-shadow:0px 6px 40px grey;
+box-shadow: 0px 6px 40px grey;
+}
+.content-discover-the-shop__button:active {
+    position: relative;
+    top :3px;
+    background-color: #f7f7f7 ;
+    color: #71c7a6;
+    -webkit-box-shadow:0px 6px 40px grey;
+    box-shadow: 0px 10px 40px black;
+    
+}
+.content-email{
+    height: 350px;
+    background-color: #ffffff;
+    padding-top: 70px;
+    text-align: center;
+
+}
+.content-email-title{
+    padding-top:30px;
+    padding-bottom:30px;
+    margin:0px auto;
+}
+.content-email-form__email{
+    border-radius: 0px;
+    height: 59px;
+    width:400px;
+    font-style: italic;
+    display:inline;
+    padding-left: 20px;
+}
+.content-email-form__submit{
+    display: inline-block;
+    width: 115px;
+    height: 59px;
+    line-height: 59px;
+    border-radius: 0px;
+    background-color: #64c29e;
+    /* Style for "DISCOVER T" */
+    color: #ffffff;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    text-align: center;
+    line-height: normal;
+}
+.content-email-title{
+
+width: 180px;
+color: #848789;
+font-family: Lato;
+font-size: 20px;
+font-style: italic;
+letter-spacing: normal;
+line-height: 34px;
+
+line-height: normal;
+}
+.content-email-form__submit:hover{
+    text-decoration: none;
+    background-color: #f7f7f7 ;
+    color: #71c7a6;
+    -webkit-box-shadow:0px 6px 40px grey;
+    box-shadow: 0px 6px 40px grey;
+}
+.content-footer{
+    height: 200px;
+    background-color: #f7f7f7;
+    padding-top:60px;
+    text-align:center;
+}
+.content-footer-location{
+    overflow:hidden;
+    display: inline-block;
+    width:300px;
+    height: 100px; 
+    text-align: left;
+    margin-right: 180px;
+    padding-top: 20px;
+}
+.content-footer-icons{
+    overflow:hidden;
+    display: inline-block;
+    width:200px;
+    height: 100px;
+    padding-top:36px;
+
+    margin-right: 180px;
+    text-decoration: none;
+    padding-right: 40px;
+}
+.content-footer-icons img{
+    padding-left: 20px;
+}
+.content-footer-icons a{
+    display: inline-block;
+    height: 20px;
+    width: 50px;
+    border-radius: 80%;
+}
+.content-footer-creator{
+    overflow:hidden;
+    display: inline-block;
+    width:200px;
+    height: 100px;
+    padding-top:36px;
+    text-align: center;
+}
+.content-footer-style-NewYork{
+    font-family: "Lato - Bold";
+    color: #848789;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.content-footer-style-Lexington{
+   /* Style for "AOD New Yo" */
+width: 236px;
+height: 48px;
+color: #848789;
+font-family: Lato;
+font-size: 20px;
+font-style: italic;
+letter-spacing: normal;
+line-height: 17.87px;
+text-align: left;
+
+}
+.content-footer-style-domain{
+    color: #848789;
+    font-family: "Lato - Italic";
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
