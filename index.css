@@ -156,7 +156,7 @@ a:hover{
 .content-work-img {
   overflow:hidden;
   display: inline-block;
-  background-image: url(files/Layer_10@3x.png);
+  background-image: url(Files/Layer_10@3x.png);
   max-width: 900px;
   width: 100%;
   height: 100%;
@@ -211,7 +211,7 @@ a:hover{
 .content-work-second-right-img {
     overflow:hidden;
     display: inline-block;
-    background-image: url(files/Layer_12@4x.png);
+    background-image: url(Files/Layer_12@4x.png);
     max-width: 900px;
     width: 100%;
     height: 100%;
@@ -249,7 +249,7 @@ a:hover{
 }
 
 .content-work-third-left-img {
-  background-image: url(files/Third_First@4x.png);
+  background-image: url(Files/Third_First@4x.png);
   max-width: 450px;
   width: 100%;
   height: 100%;
@@ -267,7 +267,7 @@ a:hover{
   }
   .content-work-third-right-img {
     
-  background-image: url(files/Vintage_Third_img.png);
+  background-image: url(Files/Vintage_Third_img.png);
   max-width: 470px;
   width: 100%;
   height: 100%;
@@ -345,7 +345,7 @@ a:hover{
   overflow: hidden;
   height: 225px;
   width: 225px;
-  background-image: url(files/content-photos-top-first.png);
+  background-image: url(Files/content-photos-top-first.png);
   background-repeat: no-repeat;
 }
 .content-photos-top-right{
@@ -355,14 +355,14 @@ a:hover{
   height: 225px;
   width: 225px;
   background-color: #222429;
-  background-image: url(files/content-photos-top-second.png);
+  background-image: url(Files/content-photos-top-second.png);
   background-repeat: no-repeat;
 }
 .content-photos-bottom{
   background-color: #222429;
 }
 .content-photos-bottom-image{
-  background-image: url(files/content-photos-left-bottom.png);
+  background-image: url(Files/content-photos-left-bottom.png);
   max-width: 470px;
   width: 100%;
   height: 100%;
@@ -393,20 +393,20 @@ a:hover{
   overflow: hidden;
   height: 100%;
   width: 224.50px;
-  background-image: url(FIles/Content-photos-middle-right.png);
+  background-image: url(Files/Content-photos-middle-right.png);
   background-repeat: no-repeat;
 }
 .content-photos-middle-right{
-  background-image: url(FIles/Content-photos-middle-left.png);
+  background-image: url(Files/Content-photos-middle-left.png);
 }
 .content-photos-right-top{
-  background-image: url(files/content-photos-right-top.png);
+  background-image: url(Files/content-photos-right-top.png);
 }
 .content-photos-bottom-left{
-  background-image: url(files/content-photos-right-bottom-left.png);
+  background-image: url(Files/content-photos-right-bottom-left.png);
 }
 .content-photos-bottom-right{
-  background-image: url(files/content-photos-bottom-right.png);
+  background-image: url(Files/content-photos-bottom-right.png);
 }
 .content-discover-the-shop {
   height: 150px;
